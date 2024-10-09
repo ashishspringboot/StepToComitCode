@@ -1,3 +1,23 @@
-Hi I am committing the it then i will explain the steps
-Adding a line
-I don't want this line
+Steps to commit the code using command:
+1. After installing git -> open git bash -> first time configure user name and user email --> using following cmd
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+2. Initialize a Git Repository (Navigate to your project folder -> initialize git repo
+   cd e: then cd /git/test  --> git init
+
+3. Add Files to the Staging Area (cmd ->git add filename.txt)
+   if there are multiple file cmd --> git add .)
+
+4. Commit Your Changes (git commit -m "Your commit message")
+
+5. Link Your Local Repository to a Remote Repository
+	cmd ->git remote add origin https://github.com/yourusername/your-repo.git
+    if added means fine else you get issue saying 
+	"it remote add origin https://github.com/ashishspringboot/StepToComitCode1.git error: remote origin already exists."
+
+resolve it using following cmd:
+1. Update the Existing Remote URL (git remote set-url origin https://github.com/ashishspringboot/StepToComitCode1.git
+2. Remove and Re-add the Remote (cmd ->git remote remove origin ->git remote add origin https://github.com/ashishspringboot/StepToComitCode1.git)
+
+6. Push Your Changes to GitHub(cmd ->git push -u origin main)
