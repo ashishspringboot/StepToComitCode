@@ -21,3 +21,5 @@ resolve it using following cmd:
 2. Remove and Re-add the Remote (cmd ->git remote remove origin ->git remote add origin https://github.com/ashishspringboot/StepToComitCode1.git)
 
 6. Push Your Changes to GitHub(cmd ->git push -u origin main)
+	-u: Sets upstream tracking for the branch, meaning that after this command,
+	you can simply run git push in the future without specifying the branch.
